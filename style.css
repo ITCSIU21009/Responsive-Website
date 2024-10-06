@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 6, 2024, 11:21:42 PM
+    Author     : huynh
+*/
+
+:root {
+  --primary-color: #333;
+  --secondary-color: #fff;
+  --text-color: #333;
+  --bg-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #fff;
+    --secondary-color: #333;
+    --text-color: #fff;
+    --bg-color: #333;
+  }
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+/* Other styles using CSS variables */
